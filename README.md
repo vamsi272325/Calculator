@@ -67,10 +67,6 @@ Includes extra functions: percentage, clear, delete, and ± toggle
 
 Smooth button hover and click transitions
 
-🖼️ Preview
-
-(You can replace the above image link with your own screenshot once uploaded.)
-
 🧩 Tech Stack
 
 HTML5 – Structure
@@ -83,7 +79,7 @@ JavaScript (ES6) – Functionality
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/beautiful-calculator.git
+git clone https://github.com/vamsi272325/Calculator.git
 
 
 Navigate to the project folder:
