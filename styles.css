@@ -1,0 +1,121 @@
+body {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.calculator {
+  width: 350px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.top {
+  background: #4a90e2;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  background: white;
+  color: #4a90e2;
+  font-weight: bold;
+  font-size: 18px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.display {
+  background: #f4f7fb;
+  padding: 20px;
+  text-align: right;
+  border-bottom: 2px solid #e1e6ed;
+}
+
+.expression {
+  font-size: 20px;
+  color: #666;
+  min-height: 28px;
+}
+
+.result {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  min-height: 36px;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 15px;
+  background: #f9fafc;
+}
+
+.key {
+  background: #e7ecf2;
+  border: none;
+  border-radius: 12px;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.key:hover {
+  background: #d0d8e0;
+}
+
+.key.op {
+  background: #ffd37a;
+}
+
+.key.op:hover {
+  background: #ffbe4a;
+}
+
+.key.equal {
+  background: #4a90e2;
+  color: white;
+}
+
+.key.equal:hover {
+  background: #3b7ed0;
+}
+
+@media (max-width: 400px) {
+  .calculator {
+    width: 90%;
+  }
+}
