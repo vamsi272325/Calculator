@@ -30,7 +30,7 @@ JavaScript (ES6) – Functionality
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/Calculator.git
+git clone https://github.com/vamsi272325/Calculator.git
 
 
 Navigate to the project folder:
@@ -103,4 +103,4 @@ C	Clear all
 🌐 Live Demo (GitHub Pages)
 
 Once you enable GitHub Pages:
-👉 View Calculator Live
+👉 https://vamsi272325.github.io/Calculator/
